@@ -25,7 +25,6 @@ endfor
   resultado = t(last_index)
   erro = erro(ii)
   resultado_i = ii
-t = 1
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 
