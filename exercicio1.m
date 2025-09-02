@@ -15,7 +15,7 @@ for ii = 1:length(t)-1
   ii;
   if ii ~= 1
     erro(ii) = abs((t(ii)-t(ii-1))/t(ii));
-    if erro(ii) < 0.01
+    if erro(ii) < es
       break
     endif
   endif
