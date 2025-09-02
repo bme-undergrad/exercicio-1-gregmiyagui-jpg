@@ -7,7 +7,7 @@ imax = 20;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 
-t = zeros (20,1);
+t = zeros (imax,1);
 t(1) = x0;
 erro = zeros(length (t),1);
 
@@ -21,10 +21,8 @@ for ii = 1:length(t)-1
   endif
   t(ii+1) = t(ii) - func(t(ii))/func_d(t(ii));
 endfor
-  last_index = find(t,1,'last');
-  resultado = t(last_index)
-  erro = erro(ii)
-  resultado_i = ii
+t(last_index)
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 
